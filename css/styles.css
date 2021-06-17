@@ -1,0 +1,145 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "ubuntu";
+}
+p{
+  color: grey;
+}
+/* colours of section */
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+/* heading */
+.heading1{
+  font-family:  "Ubuntu";
+  font-size: 3.5rem;
+  line-height: 1.25;
+  font-weight: bolder;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+/* navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-link{
+  font-family: "Montserrat-light";
+  font-size: 1.25rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+/* title section */
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+/* download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.iphone{
+  width:60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+/* features */
+#features{
+  position: relative;
+}
+.feature-icon{
+  color: #ef8172;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.feature-box{
+  padding: 5%;
+
+}
+.feature-heading{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  clear: both;
+   white-space: nowrap;
+}
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+/* testemonials-section */
+#testimonials{
+  background-color: #ef8172;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+.carousel-item{
+}
+.testimonials-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* press */
+#press{
+    background-color: #ef8172;
+}
+.press-logo{
+  width: 15%;
+  padding: 20px 20px 50px 50px;
+}
+
+/* pricing */
+#pricing{
+  padding: 100px;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+
+@media(max-width: 1028px) {
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+
+}
+/* footer section */
+.footer-div{
+  margin-top: 10%;
+}
+.footer-text{
+  margin-top:1%;
+  position: relative;
+  right:11px;
+}
+.footer-icon{
+  margin-right: 3%;
+}
